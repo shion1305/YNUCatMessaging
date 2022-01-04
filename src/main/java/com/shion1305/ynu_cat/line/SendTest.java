@@ -1,4 +1,4 @@
-package com.shion1305.ynu_cat;
+package com.shion1305.ynu_cat.line;
 
 import com.linecorp.bot.client.LineMessagingClient;
 import com.linecorp.bot.model.PushMessage;
@@ -9,6 +9,7 @@ import com.linecorp.bot.model.message.flex.component.Text;
 import com.linecorp.bot.model.message.flex.container.Bubble;
 import com.linecorp.bot.model.message.flex.unit.*;
 import com.linecorp.bot.model.response.BotApiResponse;
+import com.shion1305.ynu_cat.line.core.LineMessagingClientManager;
 
 import java.net.URI;
 import java.net.URISyntaxException;

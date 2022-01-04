@@ -1,7 +1,7 @@
-package com.shion1305.ynu_cat.message;
+package com.shion1305.ynu_cat.line.core.message;
 
 import com.linecorp.bot.model.message.Message;
-import com.shion1305.ynu_cat.Member;
+import com.shion1305.ynu_cat.line.core.Member;
 
 import java.util.Date;
 

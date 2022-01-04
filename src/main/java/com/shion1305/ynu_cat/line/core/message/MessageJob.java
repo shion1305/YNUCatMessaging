@@ -1,6 +1,5 @@
-package com.shion1305.ynu_cat.message;
+package com.shion1305.ynu_cat.line.core.message;
 
-import java.util.Date;
 import java.util.TimerTask;
 import java.util.UUID;
 

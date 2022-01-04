@@ -1,7 +1,9 @@
-package com.shion1305.ynu_cat;
+package com.shion1305.ynu_cat.line;
 
-import com.shion1305.ynu_cat.message.MessageSchedule;
-import com.shion1305.ynu_cat.message.MessageType;
+import com.shion1305.ynu_cat.line.core.Member;
+import com.shion1305.ynu_cat.line.core.MessageScheduleManager;
+import com.shion1305.ynu_cat.line.core.message.MessageSchedule;
+import com.shion1305.ynu_cat.line.core.message.MessageType;
 
 import java.util.Calendar;
 

@@ -1,4 +1,4 @@
-package com.shion1305.ynu_cat;
+package com.shion1305.ynu_cat.line.core;
 
 import com.linecorp.bot.model.PushMessage;
 import com.linecorp.bot.model.message.FlexMessage;
@@ -12,9 +12,9 @@ import com.linecorp.bot.model.message.flex.unit.FlexFontSize;
 import com.linecorp.bot.model.message.flex.unit.FlexGravity;
 import com.linecorp.bot.model.message.flex.unit.FlexLayout;
 import com.linecorp.bot.model.response.BotApiResponse;
-import com.shion1305.ynu_cat.message.MessageJob;
-import com.shion1305.ynu_cat.message.MessageSchedule;
-import com.shion1305.ynu_cat.message.MessageType;
+import com.shion1305.ynu_cat.line.core.message.MessageJob;
+import com.shion1305.ynu_cat.line.core.message.MessageSchedule;
+import com.shion1305.ynu_cat.line.core.message.MessageType;
 
 import java.net.URI;
 import java.net.URISyntaxException;

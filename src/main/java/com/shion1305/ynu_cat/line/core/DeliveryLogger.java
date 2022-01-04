@@ -1,4 +1,4 @@
-package com.shion1305.ynu_cat;
+package com.shion1305.ynu_cat.line.core;
 
 import com.linecorp.bot.model.response.BotApiResponse;
 
