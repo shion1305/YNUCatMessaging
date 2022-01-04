@@ -31,7 +31,7 @@ public class DeliveryLogger {
 
     static void logError(Exception e, boolean auto) {
         init();
-        logger.severe("2" + (auto ? "A" : "M") + " " + e.getClass().getName());
+        logger.severe("2" + (auto ? "A" : "M") + " " + e.getClass().getName()+" "+e.getMessage());
     }
 
     private static void init() {

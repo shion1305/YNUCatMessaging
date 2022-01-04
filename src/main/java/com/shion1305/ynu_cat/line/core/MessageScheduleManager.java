@@ -54,8 +54,8 @@ public class MessageScheduleManager {
                 try {
                     URI uri = new URI("https://lh3.googleusercontent.com/nXIbLSL0vr73g9Nsw_ZhNODGbKQ8AnQGhNLn0ldXjY_zVPZnk4nrGdluTBXKOKcgGipm0z9sjsD2vySc6wWkRRtnjUXH7VhJJPkoSJ4JFEQ-6npicjEup0L5ZWjBof8ddpLIiFNUsavQGVqkgInNi8COHnnXxJigFJwQ5fs5BhB4laiQkA31bsh6CUxUB97ODziDH3cmnjw4g8xUWEzmyeDbkXDq5K0q0l1m4ba0QntYJGvACa_B-HMhZ8s5o256fj-woASaUccvZQGZeiQQlZAMmFk90sP-xyQ9P5_E3pzhtsK8KpwWKY3CTzsWEgz2iGGj8YcmSF_zIaeWTaNdt07GtQlyv8drPdfqcSi696wMmhccW9_qapspSOx-mqXBSHuAdAz5Obr8-ywm9pEwMWe8G3ZM7Sck0U3ASndLGXrgIt8MmbiIu4tFxiXYRjAnA_x4A85Rgtb0JIEfiSXB8-6SnlppIdm7qYSM5QnG0FbUKDcXIwCzK7DyAmrb__QCZ2xTXk1Gqt_tD_-M_DK6fpXKdZKDTbqJD-oIvde-4fqRtX9_AFzOX178Y1yHqxdeqzwuIO0BI5uibWXjfpiScfKZWbVSjl3nowHS1gmUEBT9d6XaBPwGG-4Y_PKNfupEc5cAqa1DYkWh0FE7v3qIwNzMJpIy5ES7LcSx3d9HpmloE4gx3LzcT_bDd3iBaz_KSeyebTq5W4H4vAom4eHp9KR1=w1809-h1358-no?authuser=0");
                     Bubble bubble = Bubble.builder().hero(Image.builder().url(uri).size("full").aspectRatio(4, 3).aspectMode(Image.ImageAspectMode.Cover).build())
-                            .body(Box.builder().layout(FlexLayout.VERTICAL).contents(Text.builder().text("本日当番のお知らせ").gravity(FlexGravity.CENTER).weight(Text.TextWeight.BOLD).size(FlexFontSize.XL).align(FlexAlign.CENTER).color("#FFFFFF").build()).backgroundColor("#5AC2D9").build()).build();
-                    return FlexMessage.builder().contents(bubble).altText("猫サークル 当番のお知らせ").build();
+                            .body(Box.builder().layout(FlexLayout.VERTICAL).contents(Text.builder().text("譛ｬ譌･蠖鍋分縺ｮ縺顔衍繧峨○").gravity(FlexGravity.CENTER).weight(Text.TextWeight.BOLD).size(FlexFontSize.XL).align(FlexAlign.CENTER).color("#FFFFFF").build()).backgroundColor("#5AC2D9").build()).build();
+                    return FlexMessage.builder().contents(bubble).altText("迪ｫ繧ｵ繝ｼ繧ｯ繝ｫ 蠖鍋分縺ｮ縺顔衍繧峨○").build();
                 } catch (URISyntaxException e) {
                     e.printStackTrace();
                 }
